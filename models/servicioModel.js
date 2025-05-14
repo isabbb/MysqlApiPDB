@@ -1,10 +1,11 @@
 const mysql = require('mysql2/promise');
 
 const connection = mysql.createPool({
-    host: 'localhost',
+    host: 'trolley.proxy.rlwy.net',
+    port:44033,
     user: 'root', 
-    password: 'admin123', 
-    database: 'bdzautos'
+    password: 'pNYpnscRMGlrpJRNPhSYuXTVjULqOtjJ', 
+    database: 'railway'
 });
 
 async function traerServicios() {
